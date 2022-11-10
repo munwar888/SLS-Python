@@ -1,0 +1,19 @@
+{
+  "name": "sls-python",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sls invoke local -f hello",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-offline-python": "^3.22.3"
+  },
+  "dependencies": {
+    "serverless-dynamodb-local": "^0.2.40"
+  }
+}
