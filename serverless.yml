@@ -63,12 +63,20 @@ plugins:
 functions:
   hello:
     handler: handler.hello
-  Getuser:
+  Gettable:
     handler: handler.get
     event:
         -http: "GET"
-  Createuser:
+  Creattable:
     handler: handler.create
+    event:
+        -http: "POST"
+  Updatetable:
+    handler: handler.update
+    event:
+        -http: "POST"
+  Deletetable:
+    handler: handler.delete
     event:
         -http: "POST"
     
